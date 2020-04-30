@@ -7,7 +7,7 @@ metadata:
   labels:
     app: eks-example
   annotations:
-    # Container Image Automated Updates
+    # Container Image Automated Updates for this exercise
     flux.weave.works/automated: "true"
     # do not apply this manifest on the cluster
     #flux.weave.works/ignore: "true"
